@@ -718,7 +718,6 @@
 				32C6F32B68AAAF0659C14E37 /* Frameworks */,
 				32C6F195EF51CA8006ACC49B /* Headers */,
 				32C6FD576C0FE675D0D1B0B5 /* Resources */,
-				FABAAF0D21F88C8D0000F384 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -737,7 +736,6 @@
 				FABAAF3321F8A6D70000F384 /* Sources */,
 				FABAAF3421F8A6D70000F384 /* Frameworks */,
 				FABAAF3521F8A6D70000F384 /* Resources */,
-				FA65208721F8AAFF00F28CD6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -803,47 +801,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FA65208721F8AAFF00F28CD6 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CoreSDK.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CoreSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#/usr/local/bin/carthage copy-frameworks\n";
-		};
-		FABAAF0D21F88C8D0000F384 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CoreSDK.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CoreSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		32C6F9DFBC3FBB7D13386EEB /* Sources */ = {
